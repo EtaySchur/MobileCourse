@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Item"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blackback2"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/addTaskButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:minHeight="30dip"
+            android:onClick="addTask"
+            android:text="@string/button_addtask" />
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="237dp"
+            android:layout_height="336dp" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="99dp"
+            android:layout_height="0dp"
+            android:layout_gravity="right"
+            android:layout_weight="0.92"
+            android:gravity="center_vertical|center_horizontal|right|bottom"
+             android:onClick="delTasks"
+            android:text="@string/clear_button" />
+
+    </LinearLayout>
+
+</LinearLayout>

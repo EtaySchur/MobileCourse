@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">To Do</string>
+    <string name="button_cancel"></string>
+    <string name="enter_task_description">Enter task description</string>
+    <string name="enter_task_title">Enter task title</string>
+    <string name="button_create">Create Task</string>
+    <string name="title_activity_task_list">TaskListActivity</string>
+    <string name="button_addtask">Add Task</string>
+    <string name="TaskTitle">Task description</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_create_task">CreateTaskActivity</string>
+    <string name="clear_button">Clear selected tasks</string>
+</resources>

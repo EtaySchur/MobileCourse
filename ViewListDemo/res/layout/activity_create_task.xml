@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wb"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="78dp"
+        android:layout_height="58dp"
+        android:layout_gravity="right"
+        android:background="@drawable/back2"
+        android:onClick="Cancel"
+        android:text="@string/button_cancel"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/task_title_text1"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:ems="10"
+        android:hint="@string/enter_task_title" >
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/task_desc_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.17"
+        android:ems="10"
+        android:hint="@string/enter_task_description" />
+
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:calendarViewShown="true" />
+
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal|right|end|bottom"
+        android:onClick="Create"
+        android:text="@string/button_create" />
+
+</LinearLayout>
